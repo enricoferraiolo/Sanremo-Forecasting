@@ -1,0 +1,315 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{barbieri2020tweeteval}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=b64d1968ad5f32b4d64cddb2507cac31}{%
+           family={Barbieri},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5a2c6234f337c9ad9aa4745a4bfbb3ee}{%
+           family={Camacho-Collados},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3d36fadaa097eea8962c0e05d187b8a2}{%
+           family={Espinosa-Anke},
+           familyi={E\bibinithyphendelim A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1a813ab78d5a234506dd6dd48fddd130}{%
+           family={Neves},
+           familyi={N\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{33592c908221ab0d1cf4d39000ff26c4}
+      \strng{fullhash}{93d26cee1f75634aa50d4584a2fc3de1}
+      \strng{bibnamehash}{33592c908221ab0d1cf4d39000ff26c4}
+      \strng{authorbibnamehash}{33592c908221ab0d1cf4d39000ff26c4}
+      \strng{authornamehash}{33592c908221ab0d1cf4d39000ff26c4}
+      \strng{authorfullhash}{93d26cee1f75634aa50d4584a2fc3de1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of Findings of EMNLP}
+      \field{title}{{TweetEval:Unified Benchmark and Comparative Evaluation for Tweet Classification}}
+      \field{year}{2020}
+    \endentry
+    \entry{browser_supportati}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d17f6816ecf7fe29f4ed4538be754b65}{%
+           family={Conservancy},
+           familyi={C\bibinitperiod},
+           given={Software\bibnamedelima Freedom},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{fullhash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{bibnamehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{authorbibnamehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{authornamehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{authorfullhash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.selenium.dev/documentation/webdriver/browsers/}}
+      \field{note}{Visitato il: 26/05/2025}
+      \field{title}{Supported Browsers}
+      \field{year}{2025}
+    \endentry
+    \entry{selenium}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d17f6816ecf7fe29f4ed4538be754b65}{%
+           family={Conservancy},
+           familyi={C\bibinitperiod},
+           given={Software\bibnamedelima Freedom},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{fullhash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{bibnamehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{authorbibnamehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{authornamehash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \strng{authorfullhash}{d17f6816ecf7fe29f4ed4538be754b65}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.selenium.dev/documentation/}}
+      \field{note}{Visitato il: 21/05/2025}
+      \field{title}{The Selenium Browser Automation Project}
+      \field{year}{2025}
+    \endentry
+    \entry{bert}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorbibnamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+    \endentry
+    \entry{roberta}{misc}{}
+      \name{author}{10}{}{%
+        {{hash=94530daf7a9db4abe89cfb22935373eb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yinhan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b13aa2bad5258fa5ef7a733f2d305a49}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Myle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78a420900f50a8470ad085fb05231bf6}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Naman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e483b52ce2cd3ba2fd08e7bf4fef4ff0}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Jingfei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e5bfa941bcdbfecb5f3e42bb6ac9eb5f}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Mandar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aed188db3fc6855ac5666aa14e04a3bb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Danqi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=038965e189161e03f6255a4278c280a1}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c97f53fdeeb04c28de19e3324cb4bc0a}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1dbd3a5b42828fb2cebd7786488ba425}{%
+           family={Zettlemoyer},
+           familyi={Z\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9b97236dd2d1a104fc5cf9660dd5582e}{%
+           family={Stoyanov},
+           familyi={S\bibinitperiod},
+           given={Veselin},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{fullhash}{7579c765ce38b2c34c8f9768ec3bc342}
+      \strng{bibnamehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{authorbibnamehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{authornamehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{authorfullhash}{7579c765ce38b2c34c8f9768ec3bc342}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{RoBERTa: A Robustly Optimized BERT Pretraining Approach}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1907.11692
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1907.11692
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1907.11692
+      \endverb
+    \endentry
+    \entry{roberta-base-sentiment-analysis}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=4c247ca09eac6a9145d254f8f65eb4c6}{%
+           family={Loureiro},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b64d1968ad5f32b4d64cddb2507cac31}{%
+           family={Barbieri},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1a813ab78d5a234506dd6dd48fddd130}{%
+           family={Neves},
+           familyi={N\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f6e179e8b9bcb004c549ae195861cad8}{%
+           family={Espinosa\bibnamedelima Anke},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9e89e8aee4214a80b57bc9bf8a273c69}{%
+           family={Camacho-collados},
+           familyi={C\bibinithyphendelim c\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dublin, Ireland}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ad50a84d91c614d7d35db494d0e7fe63}
+      \strng{fullhash}{ac4e8a79e059d55b439f58a80e973dd3}
+      \strng{bibnamehash}{ad50a84d91c614d7d35db494d0e7fe63}
+      \strng{authorbibnamehash}{ad50a84d91c614d7d35db494d0e7fe63}
+      \strng{authornamehash}{ad50a84d91c614d7d35db494d0e7fe63}
+      \strng{authorfullhash}{ac4e8a79e059d55b439f58a80e973dd3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations}
+      \field{month}{5}
+      \field{title}{{T}ime{LM}s: Diachronic Language Models from {T}witter}
+      \field{year}{2022}
+      \field{pages}{251\bibrangedash 260}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.18653/v1/2022.acl-demo.25
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2022.acl-demo.25
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2022.acl-demo.25
+      \endverb
+    \endentry
+    \entry{rai_classifiche_serate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=524935ddbb5afba76f91df4a0f164eee}{%
+           family={RAI},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{524935ddbb5afba76f91df4a0f164eee}
+      \strng{fullhash}{524935ddbb5afba76f91df4a0f164eee}
+      \strng{bibnamehash}{524935ddbb5afba76f91df4a0f164eee}
+      \strng{authorbibnamehash}{524935ddbb5afba76f91df4a0f164eee}
+      \strng{authornamehash}{524935ddbb5afba76f91df4a0f164eee}
+      \strng{authorfullhash}{524935ddbb5afba76f91df4a0f164eee}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.rai.it/dl/doc/2025/02/16/1739717811627_sanremo-2025-risultati-televoto-campioni.pdf}}
+      \field{note}{Visitato il: 26/05/2025}
+      \field{title}{RAI}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
