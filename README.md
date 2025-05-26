@@ -36,4 +36,3 @@ State the license or leave it as default (if applicable).
 
 ## Contact
 Your contact information for students or others to reach out with questions.
-
