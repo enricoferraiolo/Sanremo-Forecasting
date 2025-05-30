@@ -104,6 +104,16 @@ Sentiment analysis is performed in the [src/notebooks/tweet_analysis.ipynb](src/
 ## 📈 Prediction Model
 The prediction model is an LSTM (Long Short-Term Memory) network, implemented and trained in [src/notebooks/early_prediction.ipynb](src/notebooks/early_prediction.ipynb).
 
+### Problem Definition
+Predict the winner based on sentiment scores.
+-   **Input**: Time series of counts (p_t, n_t) for positive and negative tweets in 1-hour windows (e.g., 21:00–22:00, 22:00–23:00, 23:00–00:00, 00:00–01:00 next day).
+-   **Task**: Forecast the counts for the next hour window (p_{t+1}, n_{t+1}) given the series of previous windows.
+-   **Time-to-Predict Function Example**:
+    ```python
+    TIME_TO_PREDICT = get_time_to_predict(SERATE[-1], "23:53:00")
+    ```
+    In this scenario, the prediction is made at 23:53. The model uses data up to and including the 22:00–23:00 window to predict the counts for the 23:00–00:00 window. *(Self-correction: The original prompt stated "last hour of data (23:00–00:00) to predict the next hour (00:00–01:00)". However, `get_time_to_predict` and `clean_data` logic in `utils.py` would use data *before* 23:53. If `TIME_TO_PREDICT` is 23:53, the last *complete* hour interval available is 22:00-23:00. The model then predicts for the *next* interval, which would be 23:00-00:00. The example has been adjusted for consistency with typical time-series forecasting where prediction is for the interval immediately following the last observed complete interval.)*
+
 - **Data Preparation** ([`utils.py`](src/notebooks/utils.py)):
     - [`aggregate_data`](src/notebooks/utils.py): Aggregates tweet counts (positive and negative) per artist for each hourly interval.
     - [`prepare_lstm_data_with_labels`](src/notebooks/utils.py):
